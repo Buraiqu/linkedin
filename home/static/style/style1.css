@@ -1,0 +1,14 @@
+body
+{
+    background-image: linear-gradient(
+        to bottom,
+        #263B5E 0%,
+        #263B5E 800px,
+        white 800px,
+        white 100%
+        );
+}
+
+.h11{
+    color: red;
+}
