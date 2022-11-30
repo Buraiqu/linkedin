@@ -135,6 +135,11 @@
         .join-now:hover {
             background: rgba(10, 102, 195, 0.3);
         }
+
+        .a11{
+            text-decoration: none;
+            color: white;
+        }
         
     </style>
 </head>
@@ -163,7 +168,7 @@
         <a href="#" class="forgot-password-link">
             Forgot Password?
         </a>
-        <button onclick="location.href='{% url 'home:home' %}';" >Sign in</button></a>
+        <button type="button"><a class="a11" href="{% url 'home:homepage' %}">Sign in</a></button></a>
         <p class="join-link">
             New to linkedin?
             <a href="" class="join-now">
